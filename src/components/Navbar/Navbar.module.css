@@ -1,0 +1,14 @@
+.button_m {
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.close {
+  transform: translateX(-300px);
+  transition-duration: 300ms;
+}
+
+.open {
+  transform: translateX(0);
+  transition-duration: 300ms;
+}
