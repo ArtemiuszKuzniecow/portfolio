@@ -1,13 +1,19 @@
 import * as React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { ClosingButton, Hamburger } from "../../assets/svg";
+import { getIsCollapsedSelector } from "../../store/selectors";
+import { mainReducer, mainSlice } from "../../store/slice";
 import style from "./Navbar.module.css";
 import NavbarContent from "./NavbarContent";
 
 const Navbar = () => {
-  const [isCollapsed, setIsCollapsed] = React.useState(false);
+  const isCollapsed = useSelector(getIsCollapsedSelector());
+  const dispatch = useDispatch();
+
   const toggleButton = () => {
-    setIsCollapsed((prevState) => !prevState);
+    dispatch(mainSlice.actions.toggleCollapse());
   };
+
   return (
     <div className="flex flex-row justify-between w-full h-full fixed">
       <div className={!isCollapsed ? style.open : style.close}>
