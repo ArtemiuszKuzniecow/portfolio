@@ -1,8 +1,7 @@
-import * as React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { ClosingButton, Hamburger } from "../../assets/svg";
 import { getIsCollapsedSelector } from "../../store/selectors";
-import { mainReducer, mainSlice } from "../../store/slice";
+import { mainSlice } from "../../store/slice";
 import style from "./Navbar.module.css";
 import NavbarContent from "./NavbarContent";
 
