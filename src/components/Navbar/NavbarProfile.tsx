@@ -1,10 +1,15 @@
 import * as React from "react";
 import { Facebook, Github, Twitter, Linkedin } from "../../assets/svg";
 import { Link } from "react-router-dom";
+import content from "../../content.json";
+import { useSelector } from "react-redux";
+import { getLanguageSelector } from "../../store/selectors";
 
 const avatar = require("../../assets/avatar.png");
 
 const NavbarProfile = () => {
+  const language = useSelector(getLanguageSelector());
+
   return (
     <div className="flex flex-col items-center">
       <Link to="/">
@@ -14,8 +19,10 @@ const NavbarProfile = () => {
           width={120}
           className="rounded-full border-8 border-gray-600 my-4"
         />
-        <h1 className="text-white font-semibold text-4xl">Artem</h1>
       </Link>
+      <h1 className="text-white text-center font-semibold text-4xl w-52">
+        {content[language as keyof typeof content].name}
+      </h1>
       <div className="flex flex-row">
         <a href="https://www.facebook.com/artemiusz.kuzniecow/" target="_blank">
           <Facebook />

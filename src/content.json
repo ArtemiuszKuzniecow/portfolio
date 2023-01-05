@@ -1,11 +1,14 @@
 {
   "english": {
-    "name": "Artem Kuznetsov"
+    "name": "Artem Kuznetsov",
+    "navbarMenu": ["About", "Projects", "Contact"]
   },
   "polish": {
-    "name": "Artem Kuznetsov"
+    "name": "Artemiusz Kuzniecow",
+    "navbarMenu": ["O mnie", "Portfolio", "Kontakt"]
   },
   "russian": {
-    "name": "Артём Кузнецов"
+    "name": "Артём Кузнецов",
+    "navbarMenu": ["Обо мне", "Проекты", "Контакты"]
   }
 }
