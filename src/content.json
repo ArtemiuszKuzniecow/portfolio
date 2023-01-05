@@ -1,14 +1,20 @@
 {
   "english": {
     "name": "Artem Kuznetsov",
-    "navbarMenu": ["About", "Projects", "Contact"]
+    "navbarMenu": ["About", "Projects", "Contact"],
+    "bio": "Hi, everyone! My name is Artem. I am a frontend developer from Kazakhstan. I develop websites and web applications using HTML, CSS and JavaScript. When dealing with a project I pay attention to the smallest details, patiently solving problems.",
+    "stack": "Technologies I use:"
   },
   "polish": {
     "name": "Artemiusz Kuzniecow",
-    "navbarMenu": ["O mnie", "Portfolio", "Kontakt"]
+    "navbarMenu": ["O mnie", "Portfolio", "Kontakt"],
+    "bio": "Cześć! \nMam na imię Artem. Jestem programistą frontendowym. Mieszkam w Kazachstanie. Zajmuję się tworzeniem stron i aplikacji internetowych z wykorzystaniem technologii HTML, CSS i JavaScript. Podczas pracy nad projektem zwracam uwagę na najdrobniejsze szczegóły, cierpliwie rozwiązując problemy.",
+    "stack": "Technologie, których używam:"
   },
   "russian": {
     "name": "Артём Кузнецов",
-    "navbarMenu": ["Обо мне", "Проекты", "Контакты"]
+    "navbarMenu": ["Обо мне", "Проекты", "Контакты"],
+    "bio": "Всем привет! \nМеня зовут Артем. Я фронтенд-разработчик. Живу в Казахстане. Я создаю веб-сайты и веб-приложения с использованием технологий HTML, CSS и JavaScript. При работе над проектом обращаю внимание на мельчайшие детали, терпеливо решаю проблемы.",
+    "stack": "Технологии, которые я использую:"
   }
 }
