@@ -13,6 +13,10 @@ export const mainSlice = createSlice({
       ...state,
       isNavbarCollapsed: !state.isNavbarCollapsed,
     }),
+    toggleLanguage: (state, action) => ({
+      ...state,
+      language: action.payload,
+    }),
   },
 });
 
