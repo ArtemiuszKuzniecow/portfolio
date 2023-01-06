@@ -22,7 +22,7 @@ const LanguagePanel = () => {
   };
 
   return (
-    <div className="m-2 cursor-pointer">
+    <div className="m-2 ml-6 cursor-pointer">
       {flagsCollapsed ? (
         <div onClick={() => setFlagsCollapsed((prevState) => !prevState)}>
           {flags[currentLanguage as keyof typeof flags]}

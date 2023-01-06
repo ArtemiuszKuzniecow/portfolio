@@ -70,7 +70,7 @@ export function Linkedin() {
 
 export function UserIcon() {
   return (
-    <div className="border-2 border-gray-500 bg-white rounded-full m-3 p-1">
+    <div className="border-2 border-gray-500 bg-white rounded-full my-3 mr-1 p-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -87,7 +87,7 @@ export function UserIcon() {
 
 export function ProjectsIcon() {
   return (
-    <div className="border-2 border-gray-500 bg-white rounded-full m-3 p-1">
+    <div className="border-2 border-gray-500 bg-white rounded-full my-3 mr-1 p-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
@@ -104,7 +104,7 @@ export function ProjectsIcon() {
 
 export function MailIcon() {
   return (
-    <div className="border-2 border-gray-500 bg-white rounded-full m-3 p-1">
+    <div className="border-2 border-gray-500 bg-white rounded-full my-3 mr-1 p-1">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.0"
@@ -126,37 +126,41 @@ export function MailIcon() {
   );
 }
 
-export function ClosingButton() {
+export function CloseIcon() {
   return (
-    <div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="50"
-        height="50"
-        viewBox="0 0 50 50"
-      >
-        <path d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z"></path>
-      </svg>
-    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#363853"
+        fillRule="evenodd"
+        d="M9.03 3.344a13.006 13.006 0 015.94 0 7.63 7.63 0 015.686 5.686 13.006 13.006 0 010 5.94 7.63 7.63 0 01-5.686 5.686 13.006 13.006 0 01-5.94 0 7.63 7.63 0 01-5.686-5.686 13.006 13.006 0 010-5.94A7.63 7.63 0 019.03 3.344zm4.333 6.669a.574.574 0 00-.812-.812l-2.393 2.393a.574.574 0 000 .812L12.55 14.8a.574.574 0 00.812-.812L11.376 12l1.987-1.987z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
   );
 }
 
-export function Hamburger() {
+export function OpenIcon() {
   return (
-    <div className="border-2 border-black bg-white rounded-full p-1">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        x="0px"
-        y="0px"
-        width="34"
-        height="34"
-        viewBox="0 0 64 64"
-      >
-        <path d="M51 46c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 46 50.399 46 51 46zM51 30c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 30 50.399 30 51 30zM51 14c1.104 0 2 .895 2 2 0 1.105-.896 2-2 2-.601 0-37.399 0-38 0-1.104 0-2-.895-2-2 0-1.105.896-2 2-2C13.601 14 50.399 14 51 14z"></path>
-      </svg>
-    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="60"
+      height="60"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        fill="#363853"
+        fillRule="evenodd"
+        d="M9.03 3.344a13.006 13.006 0 015.94 0 7.63 7.63 0 015.686 5.686 13.006 13.006 0 010 5.94 7.63 7.63 0 01-5.686 5.686 13.006 13.006 0 01-5.94 0 7.63 7.63 0 01-5.686-5.686 13.006 13.006 0 010-5.94A7.63 7.63 0 019.03 3.344zm1.607 10.643a.574.574 0 00.812.812l2.393-2.393a.574.574 0 000-.812L11.449 9.2a.574.574 0 00-.813.812L12.624 12l-1.988 1.987z"
+        clipRule="evenodd"
+      ></path>
+    </svg>
   );
 }
 

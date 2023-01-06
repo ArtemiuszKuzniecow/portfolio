@@ -9,6 +9,10 @@ export const mainSlice = createSlice({
   name: "main",
   initialState,
   reducers: {
+    handleCollapse: (state, action) => ({
+      ...state,
+      isNavbarCollapsed: action.payload,
+    }),
     toggleCollapse: (state) => ({
       ...state,
       isNavbarCollapsed: !state.isNavbarCollapsed,

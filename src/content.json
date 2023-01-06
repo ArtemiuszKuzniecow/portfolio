@@ -2,19 +2,22 @@
   "english": {
     "name": "Artem Kuznetsov",
     "navbarMenu": ["About", "Projects", "Contact"],
-    "bio": "Hi, everyone! My name is Artem. I am a frontend developer from Kazakhstan. I develop websites and web applications using HTML, CSS and JavaScript. When dealing with a project I pay attention to the smallest details, patiently solving problems.",
-    "stack": "Technologies I use:"
+    "bio": "Hi, my name is Artem. I am a frontend developer with a passion for creating intuitive and aesthetically pleasing user interfaces. With my experience in the field, I have honed my skills in HTML, CSS, and JavaScript. I am highly detail-oriented and strive to deliver the highest quality work to my clients and colleagues. I am always eager to take on new challenges and acquire new skills, and I am excited to bring my expertise to any project I'm going to work on.",
+    "stack": "Technologies I use:",
+    "collapseButton": "Minimize"
   },
   "polish": {
     "name": "Artemiusz Kuzniecow",
     "navbarMenu": ["O mnie", "Portfolio", "Kontakt"],
-    "bio": "Cześć! \nMam na imię Artem. Jestem programistą frontendowym. Mieszkam w Kazachstanie. Zajmuję się tworzeniem stron i aplikacji internetowych z wykorzystaniem technologii HTML, CSS i JavaScript. Podczas pracy nad projektem zwracam uwagę na najdrobniejsze szczegóły, cierpliwie rozwiązując problemy.",
-    "stack": "Technologie, których używam:"
+    "bio": "Cześć, mam na imię Artemiusz. Jestem frontend developerem z pasją do tworzenia intuicyjnych i estetycznych interfejsów użytkownika. Dzięki mojemu doświadczeniu w tej dziedzinie udoskonaliłem swoje umiejętności w zakresie HTML, CSS i JavaScript. Jestem bardzo zorientowany na szczegóły i staram się zapewnić najwyższą jakość pracy moim klientom i współpracownikom. Zawsze jestem chętny do podejmowania nowych wyzwań i zdobywania nowych umiejętności, i cieszę się, że mogę wnieść swoją wiedzę do każdego projektu, nad którym będę pracować.",
+    "stack": "Technologie, których używam:",
+    "collapseButton": "Zminimalizować "
   },
   "russian": {
     "name": "Артём Кузнецов",
     "navbarMenu": ["Обо мне", "Проекты", "Контакты"],
-    "bio": "Всем привет! \nМеня зовут Артем. Я фронтенд-разработчик. Живу в Казахстане. Я создаю веб-сайты и веб-приложения с использованием технологий HTML, CSS и JavaScript. При работе над проектом обращаю внимание на мельчайшие детали, терпеливо решаю проблемы.",
-    "stack": "Технологии, которые я использую:"
+    "bio": "Привет, меня зовут Артем. Я фронтенд-разработчик со страстью к созданию интуитивно понятных и эстетически приятных пользовательских интерфейсов. Имея опыт работы в этой области, я отточил свои навыки в HTML, CSS и JavaScript. Я очень внимательно отношусь к деталям и стремлюсь предоставлять своим клиентам и коллегам работу самого высокого качества. Я всегда готов принять новые вызовы и приобрести новые навыки, и я рад привнести свой опыт в любой проект, над которым я собираюсь работать.",
+    "stack": "Технологии, которые я использую:",
+    "collapseButton": "Свернуть"
   }
 }
