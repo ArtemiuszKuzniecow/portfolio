@@ -26,7 +26,7 @@ const NavbarProfile = () => {
           className="rounded-full border-8 border-gray-600 mt-14"
         />
       </Link>
-      <h1 className="text-white text-center font-semibold text-4xl w-52">
+      <h1 className="text-white text-center font-semibold text-4xl my-3 w-52">
         {!isCollapsed && content[language as keyof typeof content].name}
       </h1>
       {!isCollapsed && (
