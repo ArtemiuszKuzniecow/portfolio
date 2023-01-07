@@ -1,15 +1,19 @@
 import { useDispatch, useSelector } from "react-redux";
-import { ClosingButton, Hamburger } from "../../assets/svg";
-import { getIsCollapsedSelector } from "../../store/selectors";
+import { CloseIcon, OpenIcon } from "../../assets/svg";
+import {
+  getIsCollapsedSelector,
+  getLanguageSelector,
+} from "../../store/selectors";
 import { mainSlice } from "../../store/slice";
 import LanguagePanel from "../LanguagePanel";
 import style from "./Navbar.module.css";
 import NavbarContent from "./NavbarContent";
+import content from "../../content.json";
 
 const Navbar = () => {
   const isCollapsed = useSelector(getIsCollapsedSelector());
+  const language = useSelector(getLanguageSelector());
   const dispatch = useDispatch();
-
   const toggleButton = () => {
     dispatch(mainSlice.actions.toggleCollapse());
   };
@@ -19,16 +23,34 @@ const Navbar = () => {
       <div className="fixed text-white z-50">
         <LanguagePanel />
       </div>
-      <div className="flex flex-row justify-between w-full h-full fixed">
+      <div className="flex flex-row h-full fixed">
         <div className={!isCollapsed ? style.open : style.close}>
           <NavbarContent />
         </div>
-        <div className="float-right cursor-pointer p-3" onClick={toggleButton}>
+
+        <div
+          className={`${isCollapsed ? style.coordsOpened : style.coordsClosed}`}
+        >
           {!isCollapsed ? (
-            <ClosingButton />
+            <div
+              onClick={() => toggleButton()}
+              className={`cursor-pointer flex items-center ${
+                !isCollapsed ? style.open : style.close
+              }`}
+            >
+              <span className="text-gray-500 text-md">
+                {content[language as keyof typeof content].collapseButton}
+              </span>
+              <CloseIcon />
+            </div>
           ) : (
-            <div className={style.button_m}>
-              <Hamburger />
+            <div
+              className={`cursor-pointer  ${style.button_m} ${
+                !isCollapsed ? style.open : style.close
+              }`}
+              onClick={toggleButton}
+            >
+              <OpenIcon />
             </div>
           )}
         </div>

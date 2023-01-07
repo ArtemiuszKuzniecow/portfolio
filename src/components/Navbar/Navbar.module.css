@@ -4,11 +4,24 @@
 }
 
 .close {
-  transform: translateX(-300px);
-  transition-duration: 300ms;
+  transform: translateX(-160px);
+  transition-duration: 500ms;
 }
 
 .open {
   transform: translateX(0);
-  transition-duration: 300ms;
+  transition-duration: 500ms;
+}
+
+.coordsOpened {
+  position: fixed;
+  padding: 0.75rem;
+  left: 160px;
+  top: 550px;
+}
+.coordsClosed {
+  position: fixed;
+  padding: 0.75rem;
+  left: 100px;
+  top: 550px;
 }
