@@ -2,7 +2,7 @@
   "feaClients": {
     "_id": "1",
     "name": "FEA Clients",
-    "image": "",
+    "image": "https://serving.photos.photobox.com/751481417c0ee1137b36931b4cc632cdc188e688216508388c065ec6aef56782dd9598d8.jpg",
     "description": {
       "english": "",
       "russian": "",
@@ -14,7 +14,7 @@
   "urlShortener": {
     "_id": "2",
     "name": "URL Shortener",
-    "image": "",
+    "image": "https://iili.io/H55763F.png",
     "description": {
       "english": "",
       "russian": "",
@@ -26,7 +26,7 @@
   "todoList": {
     "_id": "3",
     "name": "ToDo List",
-    "image": "",
+    "image": "https://iili.io/H5571I4.png",
     "description": {
       "english": "",
       "russian": "",
