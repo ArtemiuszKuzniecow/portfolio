@@ -4,6 +4,7 @@ import Contacts from "./pages/Contacts";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import { RouteObject, useRoutes, Navigate } from "react-router-dom";
+import ProjectPage from "./pages/ProjectPage";
 
 const Routes: React.FC = () => {
   const routes: RouteObject[] = [
@@ -21,7 +22,16 @@ const Routes: React.FC = () => {
     },
     {
       path: "/projects",
-      element: <Projects />,
+      children: [
+        {
+          path: "",
+          element: <Projects />,
+        },
+        {
+          path: ":id",
+          element: <ProjectPage />,
+        },
+      ],
     },
     {
       path: "*",

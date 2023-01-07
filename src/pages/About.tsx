@@ -19,6 +19,8 @@ import {
   TSIcon,
   WebpackIcon,
 } from "../assets/techSvg";
+import HeadlineMain from "../components/common/HeadlineMain";
+import HeadlineSecond from "../components/common/HeadlineSecond";
 import content from "../content.json";
 import { getLanguageSelector } from "../store/selectors";
 
@@ -28,9 +30,9 @@ const About = () => {
   const language = useSelector(getLanguageSelector());
   return (
     <>
-      <h1 className="text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-center pt-2">
+      <HeadlineMain>
         {content[language as keyof typeof content].navbarMenu[0]}
-      </h1>
+      </HeadlineMain>
       <div className="flex flex-row items-start justify-center flex-wrap gap-5 my-10 p-5">
         <div className="w-1/2 max-lg:w-full">
           {content[language as keyof typeof content].bio}
@@ -54,9 +56,10 @@ const About = () => {
         </div>
       </div>
 
-      <h2 className="text-4xl font-bold text-center my-10 p-5">
+      <HeadlineSecond>
         {content[language as keyof typeof content].stack}
-      </h2>
+      </HeadlineSecond>
+
       <div className="flex flex-col flex-wrap items-center gap-4 mb-10 px-10">
         <div className="flex flex-wrap justify-center gap-4">
           <div className="text-center">

@@ -1,0 +1,38 @@
+{
+  "feaClients": {
+    "_id": "1",
+    "name": "FEA Clients",
+    "image": "",
+    "description": {
+      "english": "",
+      "russian": "",
+      "polish": ""
+    },
+    "deploy": "",
+    "github": ""
+  },
+  "urlShortener": {
+    "_id": "2",
+    "name": "URL Shortener",
+    "image": "",
+    "description": {
+      "english": "",
+      "russian": "",
+      "polish": ""
+    },
+    "deploy": "",
+    "github": ""
+  },
+  "todoList": {
+    "_id": "3",
+    "name": "ToDo List",
+    "image": "",
+    "description": {
+      "english": "",
+      "russian": "",
+      "polish": ""
+    },
+    "deploy": "",
+    "github": ""
+  }
+}
