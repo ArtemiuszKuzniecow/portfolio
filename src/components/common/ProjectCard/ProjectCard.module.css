@@ -43,6 +43,7 @@
   transition: 0.3s;
   width: 50%;
   border-radius: 15px;
+  margin-bottom: 5px;
 }
 
 .portfolio_wrap .portfolio_links a:hover {

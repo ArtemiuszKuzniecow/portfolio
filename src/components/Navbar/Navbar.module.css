@@ -4,14 +4,12 @@
 }
 
 .close {
-  /* transform: translateX(-160px); */
   margin-left: -160px;
   transition-duration: 500ms;
   z-index: 0;
 }
 
 .open {
-  /* transform: translateX(0); */
   margin-left: 0;
   transition-duration: 500ms;
 }
