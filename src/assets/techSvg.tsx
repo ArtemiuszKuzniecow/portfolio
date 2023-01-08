@@ -1,11 +1,15 @@
 import * as React from "react";
 
-export function HTMLIcon() {
+type SVG = {
+  size: string;
+};
+
+export function HTMLIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 32 32"
     >
@@ -19,12 +23,12 @@ export function HTMLIcon() {
   );
 }
 
-export function CSSIcon() {
+export function CSSIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 32 32"
     >
@@ -38,12 +42,12 @@ export function CSSIcon() {
   );
 }
 
-export function JSIcon() {
+export function JavaScriptIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
     >
       <g fill="none" fillRule="evenodd">
@@ -58,12 +62,12 @@ export function JSIcon() {
   );
 }
 
-export function TSIcon() {
+export function TypeScriptIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 256"
     >
@@ -80,12 +84,12 @@ export function TSIcon() {
   );
 }
 
-export function SASSIcon() {
+export function SASSIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 32 32"
     >
       <path
@@ -96,12 +100,12 @@ export function SASSIcon() {
   );
 }
 
-export function BootstrapIcon() {
+export function BootstrapIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 256"
     >
@@ -117,12 +121,12 @@ export function BootstrapIcon() {
   );
 }
 
-export function TailwindIcon() {
+export function TailwindIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 32 32"
     >
       <path
@@ -133,12 +137,12 @@ export function TailwindIcon() {
   );
 }
 
-export function ReactIcon() {
+export function ReactIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 73 73"
     >
       <g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1">
@@ -159,12 +163,12 @@ export function ReactIcon() {
   );
 }
 
-export function ReduxIcon() {
+export function ReduxIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 32 32"
     >
@@ -176,13 +180,13 @@ export function ReduxIcon() {
   );
 }
 
-export function NodeIcon() {
+export function NodeJSIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 64 64"
     >
@@ -207,12 +211,12 @@ export function NodeIcon() {
   );
 }
 
-export function ExpressIcon() {
+export function ExpressIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 24 24"
     >
       <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"></path>
@@ -220,12 +224,12 @@ export function ExpressIcon() {
   );
 }
 
-export function MongoIcon() {
+export function MongoDBIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 -183 512 512"
     >
       <g fill="none" fillRule="evenodd">
@@ -266,12 +270,12 @@ export function MongoIcon() {
   );
 }
 
-export function FirebaseIcon() {
+export function FirebaseIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 32 32"
     >
       <path
@@ -310,12 +314,12 @@ export function FirebaseIcon() {
   );
 }
 
-export function DockerIcon() {
+export function DockerIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 32 32"
     >
       <path
@@ -330,12 +334,12 @@ export function DockerIcon() {
   );
 }
 
-export function WebpackIcon() {
+export function WebpackIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 73 73"
     >
       <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
@@ -370,12 +374,12 @@ export function WebpackIcon() {
   );
 }
 
-export function NPMIcon() {
+export function NPMIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       viewBox="0 0 73 73"
     >
       <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
@@ -414,12 +418,12 @@ export function NPMIcon() {
   );
 }
 
-export function GitIcon() {
+export function GitIcon({ size }: SVG) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={size}
+      height={size}
       fill="none"
       viewBox="0 0 32 32"
     >
@@ -434,3 +438,57 @@ export function GitIcon() {
     </svg>
   );
 }
+
+export const techStack = [
+  {
+    HTML: HTMLIcon,
+  },
+  {
+    CSS: CSSIcon,
+  },
+  {
+    JavaScript: JavaScriptIcon,
+  },
+  {
+    TypeScript: TypeScriptIcon,
+  },
+  {
+    SASS: SASSIcon,
+  },
+  {
+    Bootstrap: BootstrapIcon,
+  },
+  {
+    Tailwind: TailwindIcon,
+  },
+  {
+    React: ReactIcon,
+  },
+  {
+    Redux: ReduxIcon,
+  },
+  {
+    NodeJS: NodeJSIcon,
+  },
+  {
+    Express: ExpressIcon,
+  },
+  {
+    MongoDB: MongoDBIcon,
+  },
+  {
+    Firebase: FirebaseIcon,
+  },
+  {
+    Docker: DockerIcon,
+  },
+  {
+    Webpack: WebpackIcon,
+  },
+  {
+    NPM: NPMIcon,
+  },
+  {
+    Git: GitIcon,
+  },
+];

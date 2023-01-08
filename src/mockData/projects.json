@@ -1,0 +1,49 @@
+{
+  "feaClients": {
+    "_id": "1",
+    "name": "FEA Clients",
+    "image": "https://serving.photos.photobox.com/751481417c0ee1137b36931b4cc632cdc188e688216508388c065ec6aef56782dd9598d8.jpg",
+    "description": {
+      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+    },
+    "deploy": "https://somesite.ru",
+    "github": "https://somesite.ru",
+    "stack": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "Tailwind",
+      "NodeJS",
+      "Express",
+      "MongoDB"
+    ]
+  },
+  "urlShortener": {
+    "_id": "2",
+    "name": "URL Shortener",
+    "image": "https://iili.io/H55763F.png",
+    "description": {
+      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+    },
+    "deploy": "https://somesite.ru",
+    "github": "https://somesite.ru",
+    "stack": ["TypeScript", "React", "NodeJS", "Express", "MongoDB"]
+  },
+  "todoList": {
+    "_id": "3",
+    "name": "ToDo List",
+    "image": "https://iili.io/H5571I4.png",
+    "description": {
+      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
+      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+    },
+    "deploy": "https://somesite.ru",
+    "github": "https://somesite.ru",
+    "stack": ["TypeScript", "React", "Redux", "NodeJS", "Express", "MongoDB"]
+  }
+}
