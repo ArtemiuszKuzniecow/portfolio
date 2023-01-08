@@ -18,7 +18,7 @@ const ProjectPage = () => {
   return (
     <>
       <HeadlineMain>{projectInfo?.name}</HeadlineMain>
-      <div className="container flex flex-wrap p-4 items-centr">
+      <div className="container flex flex-wrap p-4 my-10">
         <div className="w-1/2 max-lg:w-full px-4 box-border">
           <div className="h-full">
             <img
