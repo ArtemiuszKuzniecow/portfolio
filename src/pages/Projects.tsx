@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import HeadlineMain from "../components/common/HeadlineMain";
+import HeadlineMain from "../components/common/Headlines/HeadlineMain";
 import ProjectCard from "../components/common/ProjectCard/ProjectCard";
 import content from "../content.json";
 import projects from "../mockData/projects.json";

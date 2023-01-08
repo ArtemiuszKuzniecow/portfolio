@@ -1,8 +1,9 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { techStack } from "../assets/techSvg";
-import HeadlineMain from "../components/common/HeadlineMain";
-import HeadlineSecond from "../components/common/HeadlineSecond";
+import Button from "../components/common/Button/Button";
+import HeadlineMain from "../components/common/Headlines/HeadlineMain";
+import HeadlineSecond from "../components/common/Headlines/HeadlineSecond";
 import content from "../content.json";
 import { getLanguageSelector } from "../store/selectors";
 
@@ -26,14 +27,11 @@ const About = () => {
           height={300}
           className="drop-shadow-2xl rounded-md"
         />
-        <div className="w-full text-center">
+        <div className="w-full flex justify-center">
           <Link to="/contacts">
-            <button
-              type="button"
-              className="inline-block px-6 py-2 border-2 border-blue-400 text-blue-400 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-            >
+            <Button>
               {content[language as keyof typeof content].navbarMenu[2]}
-            </button>
+            </Button>
           </Link>
         </div>
       </div>
