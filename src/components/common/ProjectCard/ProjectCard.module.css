@@ -1,13 +1,12 @@
 .portfolio_wrap {
+  border: 1px solid rgba(169, 228, 255, 0.95);
+  height: 220px;
+  padding: 10px;
+  border-radius: 15px;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
-}
-
-.portfolio_image {
-  border-radius: 20px;
-  border: 1px solid rgba(169, 228, 255, 0.95);
 }
 
 .portfolio_wrap::before {

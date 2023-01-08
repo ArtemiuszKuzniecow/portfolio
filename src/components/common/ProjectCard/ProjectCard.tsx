@@ -16,12 +16,14 @@ const ProjectCard = ({ image, id, children }: CardProps) => {
   return (
     <div className="lg:w-1/4 md:w-1/2 m-2">
       <div className={style.portfolio_wrap}>
-        <img src={image} alt="cat" className={style.portfolio_image} />
+        <img src={image} alt="cat" />
         <div className={style.portfolio_links}>
           <Link to={`../projects/${id}`}>
             {content[language as keyof typeof content].aboutProjectButton}
           </Link>
         </div>
+      </div>
+      <div className="bg-gray-100 mt-1 rounded-md">
         <h1>{children}</h1>
       </div>
     </div>

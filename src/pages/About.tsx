@@ -1,24 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import {
-  BootstrapIcon,
-  CSSIcon,
-  DockerIcon,
-  ExpressIcon,
-  FirebaseIcon,
-  GitIcon,
-  HTMLIcon,
-  JSIcon,
-  MongoIcon,
-  NodeIcon,
-  NPMIcon,
-  ReactIcon,
-  ReduxIcon,
-  SASSIcon,
-  TailwindIcon,
-  TSIcon,
-  WebpackIcon,
-} from "../assets/techSvg";
+import { techStack } from "../assets/techSvg";
 import HeadlineMain from "../components/common/HeadlineMain";
 import HeadlineSecond from "../components/common/HeadlineSecond";
 import content from "../content.json";
@@ -62,74 +44,12 @@ const About = () => {
 
       <div className="flex flex-col flex-wrap items-center gap-4 mb-10 px-10">
         <div className="flex flex-wrap justify-center gap-4">
-          <div className="text-center">
-            <HTMLIcon />
-            HTML
-          </div>
-          <div className="text-center">
-            <CSSIcon />
-            CSS
-          </div>
-          <div className="text-center">
-            <JSIcon />
-            JavaScript
-          </div>
-          <div className="text-center">
-            <TSIcon />
-            TypeScript
-          </div>
-          <div className="text-center">
-            <SASSIcon />
-            SASS
-          </div>
-          <div className="text-center">
-            <BootstrapIcon />
-            Bootstrap
-          </div>
-          <div className="text-center">
-            <TailwindIcon />
-            Tailwind
-          </div>
-          <div className="text-center">
-            <ReactIcon />
-            React JS
-          </div>
-          <div className="text-center">
-            <ReduxIcon />
-            Redux
-          </div>
-          <div className="text-center">
-            <NodeIcon />
-            NODE JS
-          </div>
-          <div className="text-center">
-            <ExpressIcon />
-            Express JS
-          </div>
-          <div className="text-center">
-            <MongoIcon />
-            MongoDB
-          </div>
-          <div className="text-center">
-            <FirebaseIcon />
-            Firebase
-          </div>
-          <div className="text-center">
-            <DockerIcon />
-            Docker
-          </div>
-          <div className="text-center">
-            <WebpackIcon />
-            Webpack
-          </div>
-          <div className="text-center">
-            <NPMIcon />
-            NPM
-          </div>
-          <div className="text-center">
-            <GitIcon />
-            Git
-          </div>
+          {techStack.map((item) => (
+            <div className="text-center" key={Object.keys(item)[0]}>
+              {Object.values(item)[0]?.({ size: "80" })}
+              {Object.keys(item)[0]}
+            </div>
+          ))}
         </div>
       </div>
     </>

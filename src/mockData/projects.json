@@ -9,7 +9,16 @@
       "polish": ""
     },
     "deploy": "",
-    "github": ""
+    "github": "",
+    "stack": [
+      "JavaScript",
+      "React",
+      "Redux",
+      "Tailwind",
+      "NodeJS",
+      "Express",
+      "MongoDB"
+    ]
   },
   "urlShortener": {
     "_id": "2",
@@ -21,7 +30,8 @@
       "polish": ""
     },
     "deploy": "",
-    "github": ""
+    "github": "",
+    "stack": ["TypeScript", "React", "NodeJS", "Express", "MongoDB"]
   },
   "todoList": {
     "_id": "3",
@@ -33,6 +43,7 @@
       "polish": ""
     },
     "deploy": "",
-    "github": ""
+    "github": "",
+    "stack": ["TypeScript", "React", "Redux", "NodeJS", "Express", "MongoDB"]
   }
 }
