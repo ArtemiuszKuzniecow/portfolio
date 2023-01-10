@@ -1,6 +1,7 @@
 {
   "english": {
     "name": "Artem Kuznetsov",
+    "profession": "Frontend developer",
     "navbarMenu": ["About", "Projects", "Contact", "Hello!"],
     "bio": "Hi, my name is Artem. I am a frontend developer with a passion for creating intuitive and aesthetically pleasing user interfaces. With my experience in the field, I have honed my skills in HTML, CSS, and JavaScript. I am highly detail-oriented and strive to deliver the highest quality work to my clients and colleagues. I am always eager to take on new challenges and acquire new skills, and I am excited to bring my expertise to any project I'm going to work on.",
     "stack": "Technologies I use:",
@@ -16,10 +17,12 @@
       "viber": "<strong>Viber:</strong> <a href='viber://chat?number=%2B48731915600' target='_blank' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>+48 731 915 600</a>"
     },
     "contactsMessage": "You can contact me directly via phone, messengers or e-mail:",
-    "socialMediaMessage": "Social Media"
+    "socialMediaMessage": "Social Media",
+    "greetings": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias qui tenetur veniam inventore cum exercitationem fugiat quis temporibus, libero voluptate voluptates labore porro, sunt sapiente magni cumque ducimus quibusdam!"
   },
   "polish": {
     "name": "Artemiusz Kuzniecow",
+    "profession": "Frontend developer",
     "navbarMenu": ["O mnie", "Portfolio", "Kontakt", "Cześć!"],
     "bio": "Cześć, mam na imię Artemiusz. Jestem frontend developerem z pasją do tworzenia intuicyjnych i estetycznych interfejsów użytkownika. Dzięki mojemu doświadczeniu w tej dziedzinie udoskonaliłem swoje umiejętności w zakresie HTML, CSS i JavaScript. Jestem bardzo zorientowany na szczegóły i staram się zapewnić najwyższą jakość pracy moim klientom i współpracownikom. Zawsze jestem chętny do podejmowania nowych wyzwań i zdobywania nowych umiejętności, i cieszę się, że mogę wnieść swoją wiedzę do każdego projektu, nad którym będę pracować.",
     "stack": "Technologie, których używam:",
@@ -35,10 +38,12 @@
       "viber": "<strong>Viber:</strong> <a href='viber://chat?number=%2B48731915600' target='_blank' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>+48 731 915 600</a>"
     },
     "contactsMessage": "Możesz skontaktować się ze mną bezpośrednio przez telefon, komunikatory lub e-mail:",
-    "socialMediaMessage": "Media społecznościowe"
+    "socialMediaMessage": "Media społecznościowe",
+    "greetings": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias qui tenetur veniam inventore cum exercitationem fugiat quis temporibus, libero voluptate voluptates labore porro, sunt sapiente magni cumque ducimus quibusdam!"
   },
   "russian": {
     "name": "Артём Кузнецов",
+    "profession": "Фронтенд-разработчик",
     "navbarMenu": ["Обо мне", "Проекты", "Контакты", "Привет!"],
     "bio": "Привет, меня зовут Артём. Я фронтенд-разработчик. Со страстью подхожу к созданию интуитивно понятных и эстетически приятных пользовательских интерфейсов. Имея опыт работы в этой области, я отточил свои навыки в HTML, CSS и JavaScript. Я очень внимательно отношусь к деталям и стремлюсь предоставлять своим клиентам и коллегам работу самого высокого качества. Я всегда готов принять новые вызовы и приобрести новые навыки, и я рад привнести свой опыт в любой проект, над которым я собираюсь работать.",
     "stack": "Технологии, которые я использую:",
@@ -54,6 +59,7 @@
       "viber": "<strong>Viber:</strong> <a href='viber://chat?number=%2B48731915600' target='_blank' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>+48 731 915 600</a>"
     },
     "contactsMessage": "Вы можете связаться со мной напрямую по телефону, мессенджерам или электронной почте:",
-    "socialMediaMessage": "Социальные сети"
+    "socialMediaMessage": "Социальные сети",
+    "greetings": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias qui tenetur veniam inventore cum exercitationem fugiat quis temporibus, libero voluptate voluptates labore porro, sunt sapiente magni cumque ducimus quibusdam!"
   }
 }
