@@ -1,29 +1,53 @@
 {
   "english": {
     "name": "Artem Kuznetsov",
-    "navbarMenu": ["About", "Projects", "Contact"],
+    "navbarMenu": ["About", "Projects", "Contact", "Hello!"],
     "bio": "Hi, my name is Artem. I am a frontend developer with a passion for creating intuitive and aesthetically pleasing user interfaces. With my experience in the field, I have honed my skills in HTML, CSS, and JavaScript. I am highly detail-oriented and strive to deliver the highest quality work to my clients and colleagues. I am always eager to take on new challenges and acquire new skills, and I am excited to bring my expertise to any project I'm going to work on.",
     "stack": "Technologies I use:",
     "collapseButton": "Minimize",
     "aboutProjectButton": "About",
-    "projectsPresentation": "<div><span style='margin-left: 10px'>As</span> a frontend developer, I have had the opportunity to work on projects using HTML, CSS, and JavaScript. Some examples of my latest projects include:<ul><li style='margin: 10px'> <span style='text-decoration: underline;'>Static websites:</span> I have built several static websites using HTML and CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Web applications:</span> I have also developed a number of web applications, using HTML, CSS, and JavaScript.</li></ul> <span style='margin-left: 10px'>These<span> projects have allowed me to demonstrate my ability to build responsive and engaging applications. Overall, my portfolio provides an insight into my recent accomplishments as a frontend developer and showcases my skills in HTML, CSS, and JavaScript. I am always looking for new opportunities to learn and grow as a developer, and I am excited to continue building innovative and impactful projects in the future</div>"
+    "projectsPresentation": "<div><span style='margin-left: 10px'>As</span> a frontend developer, I have had the opportunity to work on projects using HTML, CSS, and JavaScript. Some examples of my latest projects include:<ul><li style='margin: 10px'> <span style='text-decoration: underline;'>Static websites:</span> I have built several static websites using HTML and CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Web applications:</span> I have also developed a number of web applications, using HTML, CSS, and JavaScript.</li></ul> <span style='margin-left: 10px'>These<span> projects have allowed me to demonstrate my ability to build responsive and engaging applications. Overall, my portfolio provides an insight into my recent accomplishments as a frontend developer and showcases my skills in HTML, CSS, and JavaScript. I am always looking for new opportunities to learn and grow as a developer, and I am excited to continue building innovative and impactful projects in the future</div>",
+    "contacts": {
+      "location": "Location: Oral, Kazakhstan",
+      "phone": "Telephone: +7 705 814 1069",
+      "whatsapp": "WhatsApp: +7 705 814 1069",
+      "email": "E-mail: <a href='mailto:a.kuznetsov.js@gmail.com' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>a.kuznetsov.js@gmail.com</a>",
+      "telegram": "Telegram: @ArtyKuznetsov",
+      "viber": "Viber: +48 731 915 600"
+    }
   },
   "polish": {
     "name": "Artemiusz Kuzniecow",
-    "navbarMenu": ["O mnie", "Portfolio", "Kontakt"],
+    "navbarMenu": ["O mnie", "Portfolio", "Kontakt", "Cześć!"],
     "bio": "Cześć, mam na imię Artemiusz. Jestem frontend developerem z pasją do tworzenia intuicyjnych i estetycznych interfejsów użytkownika. Dzięki mojemu doświadczeniu w tej dziedzinie udoskonaliłem swoje umiejętności w zakresie HTML, CSS i JavaScript. Jestem bardzo zorientowany na szczegóły i staram się zapewnić najwyższą jakość pracy moim klientom i współpracownikom. Zawsze jestem chętny do podejmowania nowych wyzwań i zdobywania nowych umiejętności, i cieszę się, że mogę wnieść swoją wiedzę do każdego projektu, nad którym będę pracować.",
     "stack": "Technologie, których używam:",
     "collapseButton": "Zminimalizować ",
     "aboutProjectButton": "O projekcie",
-    "projectsPresentation": "<div><span style='margin-left: 10px'>Jako</span> programista stron internetowych miałem okazję pracować nad projektami wykorzystującymi HTML, CSS i JavaScript. Oto kilka przykładów moich ostatnich projektów: <ul><li style='margin: 10px'><span style='text-decoration: underline;'>Statyczne strony internetowe:</span> Stworzyłem kilka statycznych stron internetowych przy użyciu HTML i CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Aplikacje internetowe:</span> Opracowałem również wiele aplikacji internetowych przy użyciu HTML, CSS i JavaScript.</li></ul> <span style='margin-left: 10px'>Projekty</span> te pozwoliły mi wykazać się umiejętnością tworzenia responsywnych i atrakcyjnych aplikacji. Ogólnie rzecz biorąc, moje portfolio daje wyobrażenie o moich ostatnich osiągnięciach jako programisty front-end i prezentuje moje umiejętności w zakresie HTML, CSS i JavaScript. Zawsze szukam nowych możliwości nauki i rozwoju jako programista i jestem podekscytowany możliwością dalszego tworzenia innowacyjnych i wpływowych projektów w przyszłości.</div>"
+    "projectsPresentation": "<div><span style='margin-left: 10px'>Jako</span> programista stron internetowych miałem okazję pracować nad projektami wykorzystującymi HTML, CSS i JavaScript. Oto kilka przykładów moich ostatnich projektów: <ul><li style='margin: 10px'><span style='text-decoration: underline;'>Statyczne strony internetowe:</span> Stworzyłem kilka statycznych stron internetowych przy użyciu HTML i CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Aplikacje internetowe:</span> Opracowałem również wiele aplikacji internetowych przy użyciu HTML, CSS i JavaScript.</li></ul> <span style='margin-left: 10px'>Projekty</span> te pozwoliły mi wykazać się umiejętnością tworzenia responsywnych i atrakcyjnych aplikacji. Ogólnie rzecz biorąc, moje portfolio daje wyobrażenie o moich ostatnich osiągnięciach jako programisty front-end i prezentuje moje umiejętności w zakresie HTML, CSS i JavaScript. Zawsze szukam nowych możliwości nauki i rozwoju jako programista i jestem podekscytowany możliwością dalszego tworzenia innowacyjnych i wpływowych projektów w przyszłości.</div>",
+    "contacts": {
+      "location": "Lokalizacja: Uralsk, Kazachstan",
+      "phone": "Telefon: +7 705 814 1069",
+      "whatsapp": "WhatsApp: +7 705 814 1069",
+      "email": "E-mail: <a href='mailto:a.kuznetsov.js@gmail.com' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>a.kuznetsov.js@gmail.com</a>",
+      "telegram": "Telegram: @ArtyKuznetsov",
+      "viber": "Viber: +48 731 915 600"
+    }
   },
   "russian": {
     "name": "Артём Кузнецов",
-    "navbarMenu": ["Обо мне", "Проекты", "Контакты"],
+    "navbarMenu": ["Обо мне", "Проекты", "Контакты", "Привет!"],
     "bio": "Привет, меня зовут Артём. Я фронтенд-разработчик. Со страстью подхожу к созданию интуитивно понятных и эстетически приятных пользовательских интерфейсов. Имея опыт работы в этой области, я отточил свои навыки в HTML, CSS и JavaScript. Я очень внимательно отношусь к деталям и стремлюсь предоставлять своим клиентам и коллегам работу самого высокого качества. Я всегда готов принять новые вызовы и приобрести новые навыки, и я рад привнести свой опыт в любой проект, над которым я собираюсь работать.",
     "stack": "Технологии, которые я использую:",
     "collapseButton": "Свернуть",
     "aboutProjectButton": "О проекте",
-    "projectsPresentation": "<div><span style='margin-left: 10px'>Как</span> веб-разработчик, у меня была возможность поработать над проектами с использованием HTML, CSS и JavaScript. Вот некоторые примеры моих последних проектов: <ul><li style='margin: 10px'><span style='text-decoration: underline;'>Статические веб-сайты:</span> я создал несколько статических веб-сайтов с использованием HTML и CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Веб-приложения:</span> я также разработал ряд веб-приложений с использованием HTML, CSS и JavaScript.</li></ul><span style='margin-left: 10px'>Эти</span> проекты позволили мне продемонстрировать свою способность создавать отзывчивые и привлекательные приложения. В целом, мое портфолио дает представление о моих недавних достижениях в качестве разработчика интерфейса и демонстрирует мои навыки в HTML, CSS и JavaScript. Я всегда ищу новые возможности для обучения и роста как разработчик, и я рад продолжать создавать инновационные и эффективные проекты в будущем.</div>"
+    "projectsPresentation": "<div><span style='margin-left: 10px'>Как</span> веб-разработчик, у меня была возможность поработать над проектами с использованием HTML, CSS и JavaScript. Вот некоторые примеры моих последних проектов: <ul><li style='margin: 10px'><span style='text-decoration: underline;'>Статические веб-сайты:</span> я создал несколько статических веб-сайтов с использованием HTML и CSS.</li><li style='margin: 10px'><span style='text-decoration: underline;'>Веб-приложения:</span> я также разработал ряд веб-приложений с использованием HTML, CSS и JavaScript.</li></ul><span style='margin-left: 10px'>Эти</span> проекты позволили мне продемонстрировать свою способность создавать отзывчивые и привлекательные приложения. В целом, мое портфолио дает представление о моих недавних достижениях в качестве разработчика интерфейса и демонстрирует мои навыки в HTML, CSS и JavaScript. Я всегда ищу новые возможности для обучения и роста как разработчик, и я рад продолжать создавать инновационные и эффективные проекты в будущем.</div>",
+    "contacts": {
+      "location": "Место нахождения: Уральск, Казахстан",
+      "phone": "Телефон: +7 705 814 1069",
+      "whatsapp": "WhatsApp: +7 705 814 1069",
+      "email": "E-mail: <a href='mailto:a.kuznetsov.js@gmail.com' onMouseOver=this.style.cssText='color:gray' onMouseOut=this.style.cssText='color:auto'>a.kuznetsov.js@gmail.com</a>",
+      "telegram": "Telegram: @ArtyKuznetsov",
+      "viber": "Viber: +48 731 915 600"
+    }
   }
 }
