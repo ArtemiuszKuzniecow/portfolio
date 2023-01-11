@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { CloseIcon, OpenIcon } from "../../assets/svg";
+import content from "../../content.json";
 import {
   getIsCollapsedSelector,
   getLanguageSelector,
@@ -8,14 +9,16 @@ import { mainSlice } from "../../store/slice";
 import LanguagePanel from "../LanguagePanel";
 import style from "./Navbar.module.css";
 import NavbarContent from "./NavbarContent";
-import content from "../../content.json";
 
 const Navbar = () => {
   const isCollapsed = useSelector(getIsCollapsedSelector());
   const language = useSelector(getLanguageSelector());
   const dispatch = useDispatch();
+
   const toggleButton = () => {
+    const storageValue = !isCollapsed;
     dispatch(mainSlice.actions.toggleCollapse());
+    localStorage.setItem("akuznetsovCollapse", JSON.stringify(storageValue));
   };
 
   return (

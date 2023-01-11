@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  language: "english",
-  isNavbarCollapsed: false,
+  language: localStorage.getItem("akuznetsovLanguage") || "english",
+  isNavbarCollapsed:
+    JSON.parse(localStorage.getItem("akuznetsovCollapse") || "{}") || false,
 };
 
 export const mainSlice = createSlice({

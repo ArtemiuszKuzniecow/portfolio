@@ -6,8 +6,9 @@ import { mainSlice } from "../store/slice";
 const LanguagePanel = () => {
   const dispatch = useDispatch();
   const [flagsCollapsed, setFlagsCollapsed] = React.useState<boolean>(true);
-  const [currentLanguage, setCurrentLanguage] =
-    React.useState<string>("english");
+  const [currentLanguage, setCurrentLanguage] = React.useState<string>(
+    localStorage.getItem("akuznetsovLanguage") || "english"
+  );
 
   const flags = {
     english: <USflag />,
@@ -19,6 +20,7 @@ const LanguagePanel = () => {
     setCurrentLanguage(lang);
     setFlagsCollapsed((prevState) => !prevState);
     dispatch(mainSlice.actions.toggleLanguage(lang));
+    localStorage.setItem("akuznetsovLanguage", lang);
   };
 
   return (
