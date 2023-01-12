@@ -22,7 +22,7 @@ const Contacts = () => {
         {content[language as keyof typeof content].navbarMenu[2]}
       </HeadlineMain>
 
-      <div className="m-10 p-4 max-sm:px-1 shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-10 box-border flex justify-around flex-wrap">
+      <div className="m-10 p-4 max-sm:px-1 shadow-[0_3px_10px_rgb(0,0,0,0.2)] py-10 box-border flex justify-around flex-wrap word-wrap">
         <div className="w-1/2 max-md:w-full">
           <h2 className="font-medium leading-tight text-2xl max-sm:text-sm mt-0 mb-2 word-wrap">
             {content[language as keyof typeof content].contactsMessage}

@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="fixed text-white z-50">
         <LanguagePanel />
       </div>
-      <div className="flex flex-row h-full fixed">
+      <div className="flex flex-row h-full fixed z-40">
         <div className={!isCollapsed ? style.open : style.close}>
           <NavbarContent />
         </div>

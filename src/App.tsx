@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-import LanguagePanel from "./components/LanguagePanel";
 import Navbar from "./components/Navbar/Navbar";
 import Routes from "./routes";
 import { getIsCollapsedSelector } from "./store/selectors";
@@ -10,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className={!isCollapsed ? "ml-80" : "ml-20"}>
+      <div className={`sm:${!isCollapsed ? "ml-80" : "ml-20"} ml-20`}>
         <Routes />
       </div>
     </BrowserRouter>
