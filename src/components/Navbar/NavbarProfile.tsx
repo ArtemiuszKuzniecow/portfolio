@@ -8,7 +8,7 @@ import {
   getLanguageSelector,
 } from "../../store/selectors";
 
-const avatar = require("../../assets/avatar.png");
+const avatar = "https://iili.io/HYx8EI2.png";
 
 const NavbarProfile = () => {
   const isCollapsed = useSelector(getIsCollapsedSelector());

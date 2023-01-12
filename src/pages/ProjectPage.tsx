@@ -44,7 +44,7 @@ const ProjectPage = () => {
         </div>
         {/* CARD */}
         <div className="w-1/2 max-lg:w-full px-4 shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-5 box-border">
-          Project description:{" "}
+          {content[language as keyof typeof content].descriptionText}:{" "}
           {
             projectInfo?.description[
               language as keyof typeof projectInfo.description
