@@ -4,12 +4,12 @@
     "name": "FEA Clients",
     "image": "https://serving.photos.photobox.com/751481417c0ee1137b36931b4cc632cdc188e688216508388c065ec6aef56782dd9598d8.jpg",
     "description": {
-      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+      "english": "This is client base web application for sales managers. Sales managers can use the web application to track and manage customer interactions, set and track sales targets, and monitor performance metrics of their sales team.",
+      "russian": "Это веб-приложение клиентской базы для менеджеров по продажам. Менеджеры по продажам могут использовать веб-приложение для отслеживания и управления взаимодействиями с клиентами, установки и отслеживания целей продаж, а также мониторинга показателей эффективности своей команды продаж..",
+      "polish": "Jest to aplikacja internetowa dla klientów dla przedstawicieli handlowych. Przedstawiciele handlowi mogą używać aplikacji internetowej do śledzenia interakcji z klientami i zarządzania nimi, ustalania i śledzenia celów sprzedaży oraz monitorowania wskaźników wydajności swojego zespołu sprzedaży."
     },
-    "deploy": "https://somesite.ru",
-    "github": "https://somesite.ru",
+    "deploy": "http://79.143.31.236/",
+    "github": "https://github.com/ArtemiuszKuzniecow/fea-clients",
     "stack": [
       "JavaScript",
       "React",
@@ -23,14 +23,14 @@
   "urlShortener": {
     "_id": "2",
     "name": "URL Shortener",
-    "image": "https://iili.io/H55763F.png",
+    "image": "https://iili.io/HYoyJAN.png",
     "description": {
-      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+      "english": "Pet project. The Web Application URL Shortener is a tool that allows users to take a long URL (uniform resource locator) and convert it into a shorter, more manageable link.",
+      "russian": "Пэт-проект. Средство сокращения URL-адресов веб-приложений — это инструмент, который позволяет пользователям брать длинный URL-адрес (унифицированный указатель ресурсов) и преобразовывать его в более короткую и более управляемую ссылку.",
+      "polish": "Pet projekt. Aplikacja internetowa URL Shortener to narzędzie, które pozwala użytkownikom konwertować długi adres URL (jednolity lokalizator zasobów) na krótszy, łatwiejszy w zarządzaniu link."
     },
-    "deploy": "https://somesite.ru",
-    "github": "https://somesite.ru",
+    "deploy": "https://5e3a9l.deta.dev",
+    "github": "https://github.com/ArtemiuszKuzniecow/url_shortener",
     "stack": ["TypeScript", "React", "NodeJS", "Express", "MongoDB"]
   },
   "todoList": {
@@ -38,12 +38,12 @@
     "name": "ToDo List",
     "image": "https://iili.io/H5571I4.png",
     "description": {
-      "english": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "russian": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam.",
-      "polish": "Lnorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorequae doloremque nam ipsam voluptas asperatur, sit molestias perferendisexpedita eum sed voluptatum quod assumenda voluptatem! Ex repellatnostrum nam."
+      "english": "Pet project. A Todo list is a web application that allows users to create and manage a list of tasks or activities that they need to complete. To-do list would provide a simple and user-friendly way for users to organize and manage their tasks and activities, allowing them to stay on top of their responsibilities and achieve their goals.",
+      "russian": "Пэт-проект. Список дел — это веб-приложение, которое позволяет пользователям создавать и управлять списком задач или действий, которые им необходимо выполнить. Список дел предоставит пользователям простой и удобный способ организации и управления своими задачами и действиями, что позволит им выполнять свои обязанности и достигать своих целей.",
+      "polish": "Pet projekt. ToDo list to aplikacja internetowa, która umożliwia użytkownikom tworzenie i zarządzanie listą zadań lub działań, które muszą wykonać. ToDo list zapewniłaby użytkownikom prosty i przyjazny dla użytkownika sposób organizowania i zarządzania zadaniami i działaniami, umożliwiając im kontrolowanie swoich obowiązków i osiąganie celów."
     },
-    "deploy": "https://somesite.ru",
-    "github": "https://somesite.ru",
+    "deploy": "https://vn13q0.deta.dev",
+    "github": "https://github.com/ArtemiuszKuzniecow/todo_list_by_dave_gray",
     "stack": ["TypeScript", "React", "Redux", "NodeJS", "Express", "MongoDB"]
   }
 }

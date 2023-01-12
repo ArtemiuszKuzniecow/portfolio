@@ -1,10 +1,10 @@
-import * as React from "react";
-import HeadlineMain from "../components/common/Headlines/HeadlineMain";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import MainImage from "../assets/MainImage";
+import Button from "../components/common/Button/Button";
+import HeadlineSecond from "../components/common/Headlines/HeadlineSecond";
 import content from "../content.json";
 import { getLanguageSelector } from "../store/selectors";
-import { useSelector } from "react-redux";
-import HeadlineSecond from "../components/common/Headlines/HeadlineSecond";
-import MainImage from "../assets/MainImage";
 
 const Main = () => {
   const language = useSelector(getLanguageSelector());
@@ -20,12 +20,16 @@ const Main = () => {
             <MainImage />
           </div>
           <div className="w-1/3 max-xl:w-full">
-            <HeadlineMain>
-              {content[language as keyof typeof content].navbarMenu[3]}
-            </HeadlineMain>
-            <p className="pt-5">
+            <p className="italic pt-5 text-xl text-center">
               {content[language as keyof typeof content].greetings}
             </p>
+            <div className="w-full flex justify-center pt-5">
+              <Link to="/contacts">
+                <Button>
+                  {content[language as keyof typeof content].navbarMenu[2]}
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

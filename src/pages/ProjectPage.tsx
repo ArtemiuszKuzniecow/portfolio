@@ -27,13 +27,13 @@ const ProjectPage = () => {
               className="p-4 rounded-md border-2 border-sky-100 p-5 m-auto"
             />
             <div className="flex flex-row justify-evenly py-6">
-              <a href={projectInfo?.deploy}>
+              <a href={projectInfo?.deploy} target="_blank">
                 <Button>
                   <WebIcon />
                   Deploy
                 </Button>
               </a>
-              <a href={projectInfo?.github}>
+              <a href={projectInfo?.github} target="_blank">
                 <Button>
                   <GithubIcon />
                   Github
