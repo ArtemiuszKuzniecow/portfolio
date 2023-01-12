@@ -1,0 +1,1 @@
+{"id":"6501cd2d-3535-4917-817a-98a4cee454ee","space":45318,"runtime":"nodejs14.x","name":"portfolio_server","path":"twh2ax","project":"d05c3ose","account":"144798365827","region":"ap-south-1","deps":["express@^4.18.2"],"envs":null,"public":true,"log_level":"off","cron":""}

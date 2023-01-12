@@ -6,7 +6,7 @@ import projects from "../mockData/projects.json";
 import { getLanguageSelector } from "../store/selectors";
 import { techStack } from "../assets/techSvg";
 
-const keys = require("../assets/keys.jpg");
+const keys = "https://iili.io/HYx8emQ.jpg";
 
 const Projects = () => {
   const language = useSelector(getLanguageSelector());
